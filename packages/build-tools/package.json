@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@matchkit/build-tools",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Matchkit custom build tools",
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "scripts": {
+    "pkg": "./scripts/pkg",
+    "lint": "eslint --ext cjs --max-warnings 0 .",
+    "verify": "pnpm run lint"
+  },
+  "devDependencies": {
+    "@matchkit/build-config": "workspace:*"
+  }
+}
